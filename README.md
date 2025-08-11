@@ -77,5 +77,6 @@ docker run --rm -p 3000:3000 trackme:local
 ---
 
 ## Notes
+
 - The app now respects `PORT` for PaaS.
 - If behind a reverse proxy that terminates TLS, no extra Socket.IO config is needed by default.
